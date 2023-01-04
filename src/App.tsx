@@ -1,5 +1,6 @@
 // import reactLogo from "./assets/react.svg";
-import './App.css'
+import { Box } from '@material-ui/core'
+import { BoardComponent } from './Board'
 
 /*
 <a href="https://vitejs.dev" target="_blank">
@@ -10,12 +11,10 @@ import './App.css'
 </a>
 */
 
-function App() {
-  return (
-    <div className="App">
-      <canvas></canvas>
-    </div>
-  )
-}
+const App = () => (
+  <Box>
+    <BoardComponent />
+  </Box>
+)
 
 export default App
